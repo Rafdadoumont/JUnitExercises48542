@@ -16,8 +16,7 @@ public class Ex2_Asserts {
         int var3 = 5 ;
         int [] a1 = { 1 , 2 , 3 } ;
 
-        // Different array
-        int [] a2 = { 1 , 2 , 3 , 4 } ;
+        int [] a2 = { 1 , 2 , 3 } ;
         assertEquals (obj1 , obj2) ;
         assertSame (obj3 , obj4) ;
         assertNotSame (obj2 , obj4) ;
